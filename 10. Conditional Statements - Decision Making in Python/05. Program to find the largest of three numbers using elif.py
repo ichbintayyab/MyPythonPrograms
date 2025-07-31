@@ -1,0 +1,12 @@
+# Input from user
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+# Compare using if-elif-else
+if a>=b and a>=c:
+    print(f"The largest number is {a}")
+elif b>=a and b>=c:
+    print(f"The largest number is {b}")
+else:
+    print(f"The largest number is {c}")
